@@ -59,34 +59,35 @@ body {
   margin-bottom: 15px;
   color: #4b4b4b;
   margin-left: 25px;
+  flex: 1;
+}
+
+.intro-block {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.side-intro {
+  /* flex: 1; */
 }
 
 .location {
   font-size: 14px;
-  margin-bottom: 12px;
+  /* margin-bottom: 12px; */
   margin-left: 25px;
-  display: inline-block;
+  /* display: inline-block; */
   color: #929292;
-}
-
-.location::after {
-  content: "\00b7"; /* Unicode character for a small dot (·) */
-  display: inline-block;
-  margin: 0 8px; /* Adjust the margin as needed for spacing */
-  font-size: 14px; /* Adjust the font size as needed */
-  vertical-align: middle; /* Center vertically with respect to the text */
-  color: #a9a9a9; /* Color of the dot */
-  font-weight: bold;
 }
 
 .contact-info:link {
   font-size: 14px;
-  margin-bottom: 12px;
+  /* margin-bottom: 12px; */
   color: #2967b2;
   font-weight: bold;
   /* margin-left: 20px; */
-  display: inline-block;
-  /* margin-left: 15px; */
+  /* display: inline-block; */
+  margin-left: 15px;
   vertical-align: bottom;
   text-decoration: none;
 }
@@ -97,8 +98,8 @@ body {
   color: #2967b2;
   font-weight: bold;
   /* margin-left: 10px; */
-  display: inline-block;
-  /* margin-left: 15px; */
+  /* display: inline-block; */
+  margin-left: 15px;
   vertical-align: bottom;
   text-decoration: none;
 }
@@ -109,8 +110,8 @@ body {
   color: #2967b2;
   font-weight: bold;
   /* margin-left: 10px; */
-  display: inline-block;
-  /* margin-left: 10px; */
+  /* display: inline-block; */
+  margin-left: 10px;
   vertical-align: bottom;
   text-decoration: underline;
 }
@@ -121,8 +122,8 @@ body {
   color: #164784;
   font-weight: bold;
   /* margin-left: 10px; */
-  display: inline-block;
-  /* margin-left: 10px; */
+  /* display: inline-block; */
+  margin-left: 10px;
   vertical-align: bottom;
   text-decoration: underline;
 }
@@ -145,7 +146,7 @@ body {
   font-size: 15px;
   color: #fff;
   font-weight: bold;
-  margin-right: 20px;
+  margin-right: 10px;
   border: none;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -160,7 +161,7 @@ body {
   font-size: 15px;
   color: #2967b2;
   font-weight: bold;
-  margin-right: 20px;
+  margin-right: 10px;
   border: 1.8px solid #2967b2;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -175,7 +176,7 @@ body {
   font-size: 15px;
   color: #8f8f8f;
   font-weight: bold;
-  margin-right: 20px;
+  /* margin-right: 20px; */
   border: 1.8px solid #8f8f8f;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -185,3 +186,9 @@ body {
 }
 
 /* Next Section */
+
+.location-contact {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
