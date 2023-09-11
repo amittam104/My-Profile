@@ -9,8 +9,14 @@ body {
 }
 
 .main-side {
-  width: 1000px;
+  width: 800px;
   margin: 0 auto;
+}
+
+.page-header {
+  background-color: #fff;
+  height: 50px;
+  margin-bottom: 30px;
 }
 
 .banner {
@@ -19,6 +25,8 @@ body {
   height: 200px;
   color: #dfe1df;
   position: relative;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
   /* margin-bottom: 100px; */
 }
 
@@ -42,7 +50,7 @@ body {
   border: 5px solid #fff;
   margin-left: 40px;
   position: absolute;
-  top: 120px;
+  top: 190px;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -259,17 +267,48 @@ body {
   text-decoration: underline;
 }
 
-.side1 {
+.sidebar {
   background-color: #fff;
-  padding: 15px 30px;
+  padding: 15px 25px;
   flex: 1;
+  border-radius: 10px;
+  /* max-width: 100%; */
 }
 
 .container {
   flex: 1;
+  /* max-width: 100%; */
 }
 
 .main-side {
   display: flex;
   gap: 30px;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.profile-language {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 0.7px solid #d7d7d7;
+}
+
+.language {
+  margin-bottom: 7px;
+  font-size: 17px;
+}
+
+.english {
+  font-size: 14px;
+  color: #8f8f8f;
+}
+
+.public-profile {
+  margin-bottom: 7px;
+  font-size: 17px;
+}
+
+.url {
+  font-size: 14px;
+  color: #8f8f8f;
 }
