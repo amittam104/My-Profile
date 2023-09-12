@@ -37,6 +37,7 @@ body {
   padding-right: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  margin-bottom: 10px;
 }
 /* .profile-header {
   
@@ -373,4 +374,33 @@ body {
   cursor: pointer;
   color: #2967b2;
   border: 1px solid #2967b2;
+}
+
+.analytics {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 30px;
+  row-gap: 15px;
+  margin-bottom: 50px;
+}
+
+.profile-view {
+  padding: 15px;
+  border: 1px solid #707070;
+}
+
+.post-immpressions {
+  padding: 15px;
+  border: 1px solid #707070;
+}
+
+.search-appearances {
+  padding: 15px;
+  border: 1px solid #707070;
+}
+.followers {
+  padding: 15px;
+  border: 1px solid #707070;
 }
