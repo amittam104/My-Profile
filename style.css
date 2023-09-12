@@ -9,7 +9,7 @@ body {
 }
 
 .main-side {
-  width: 800px;
+  width: 1100px;
   margin: 0 auto;
 }
 
@@ -21,7 +21,7 @@ body {
 
 .banner {
   background-color: #dfe1df;
-  width: 800px;
+  width: auto;
   height: 200px;
   color: #dfe1df;
   position: relative;
@@ -277,14 +277,17 @@ body {
 }
 
 .container {
-  flex: 1;
+  flex: 1 1 auto;
   /* max-width: 100%; */
 }
 
+.sidebar {
+  flex: 1 1 auto;
+}
 .main-side {
   display: flex;
   gap: 30px;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-start;
 }
 
