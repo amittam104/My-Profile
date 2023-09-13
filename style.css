@@ -379,7 +379,8 @@ body {
 .analytics-section {
   background-color: #fff;
   margin-bottom: 50px;
-  padding: 15px 20px;
+  padding: 15px 25px;
+  border-radius: 10px;
 }
 .analytics {
   display: grid;
@@ -394,21 +395,103 @@ body {
   margin-top: 10px;
 }
 
+.analytics-header h2 {
+  font-size: 22px;
+  margin-bottom: 3px;
+}
+
+.analytics-header p {
+  font-size: 13px;
+  color: #707070;
+}
+
 .profile-view {
   padding: 15px;
-  border: 1px solid #707070;
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.profile-view:hover {
+  padding: 15px;
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #e2e2e2;
 }
 
 .post-immpressions {
   padding: 15px;
-  border: 1px solid #707070;
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.post-immpressions:hover {
+  padding: 15px;
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #e2e2e2;
 }
 
 .search-appearances {
   padding: 15px;
-  border: 1px solid #707070;
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  cursor: pointer;
 }
+
+.search-appearances:hover {
+  padding: 15px;
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #e2e2e2;
+}
+
 .followers {
   padding: 15px;
-  border: 1px solid #707070;
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.followers:hover {
+  padding: 15px;
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #e2e2e2;
+}
+
+.profile-view h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.profile-view p {
+  font-size: 14px;
+  color: #707070;
+}
+
+.analytics h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.analytics p {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #707070;
+}
+
+.follower-rise {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.impression-value {
+  display: flex;
+  gap: 10px;
+  font-size: 10px;
 }
