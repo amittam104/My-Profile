@@ -376,14 +376,22 @@ body {
   border: 1px solid #2967b2;
 }
 
-.analytics {
+.analytics-section {
   background-color: #fff;
+  margin-bottom: 50px;
+  padding: 15px 20px;
+}
+.analytics {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   column-gap: 30px;
   row-gap: 15px;
-  margin-bottom: 50px;
+}
+
+.analytics-header {
+  margin-bottom: 30px;
+  margin-top: 10px;
 }
 
 .profile-view {
