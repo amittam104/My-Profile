@@ -166,6 +166,10 @@ body {
   cursor: pointer;
 }
 
+.open-to:hover {
+  background-color: #164784;
+}
+
 .add-section {
   background-color: #fff;
   padding: 8px 16px;
@@ -181,6 +185,11 @@ body {
   cursor: pointer;
 }
 
+.add-section:hover {
+  background-color: #bfd8f4;
+  border: 2.2px solid #2967b2;
+}
+
 .more {
   background-color: #fff;
   padding: 8px 20px;
@@ -194,6 +203,11 @@ body {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   cursor: pointer;
+}
+
+.more:hover {
+  background-color: #d7d6d6;
+  border: 2.2px solid #8f8f8f;
 }
 
 /* Next Section */
@@ -358,6 +372,7 @@ body {
 .photo {
   border-radius: 50%;
 }
+
 .who-viewed {
   font-size: 15px;
   text-align: center;
@@ -374,6 +389,11 @@ body {
   cursor: pointer;
   color: #2967b2;
   border: 1px solid #2967b2;
+}
+
+.try-premium:hover {
+  background-color: #bfd8f4;
+  border: 2px solid #2967b2;
 }
 
 .analytics-section {
@@ -405,19 +425,30 @@ body {
   color: #707070;
 }
 
-.profile-view {
+.profile-views {
   padding: 15px;
   border: 1px solid #e2e2e2;
   border-radius: 8px;
   cursor: pointer;
 }
 
-.profile-view:hover {
+.profile-views:hover {
   padding: 15px;
   border: 1px solid #e2e2e2;
   border-radius: 8px;
   cursor: pointer;
   background-color: #e2e2e2;
+}
+
+.profile-view {
+  /* margin-top: 10px; */
+  font-size: 18px;
+  margin-bottom: 7px;
+}
+
+.who-saw {
+  font-size: 14px;
+  color: #707070;
 }
 
 .post-immpressions {
@@ -435,6 +466,28 @@ body {
   background-color: #e2e2e2;
 }
 
+.post-impression {
+  font-size: 18px;
+  margin-bottom: 7px;
+}
+
+.check-who {
+  font-size: 14px;
+  color: #707070;
+  margin-bottom: 5px;
+}
+.impression-value {
+  font-size: 12px;
+  color: #707070;
+  display: flex;
+  gap: 10px;
+}
+
+.impress-value {
+  color: #298d1a;
+  font-weight: bold;
+}
+
 .search-appearances {
   padding: 15px;
   border: 1px solid #e2e2e2;
@@ -448,6 +501,17 @@ body {
   border-radius: 8px;
   cursor: pointer;
   background-color: #e2e2e2;
+}
+
+.search-appearance {
+  font-size: 18px;
+  margin-bottom: 7px;
+}
+
+.check-many {
+  font-size: 14px;
+  color: #707070;
+  margin-bottom: 5px;
 }
 
 .followers {
@@ -465,33 +529,25 @@ body {
   background-color: #e2e2e2;
 }
 
-.profile-view h3 {
+.follower {
   font-size: 18px;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
 }
 
-.profile-view p {
+.see-many {
   font-size: 14px;
   color: #707070;
+  margin-bottom: 5px;
 }
 
-.analytics h3 {
-  font-size: 18px;
-  margin-bottom: 5px;
-}
-.analytics p {
-  margin-bottom: 5px;
-  font-size: 14px;
+.follower-values {
+  font-size: 12px;
   color: #707070;
-}
-
-.follower-rise {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.impression-value {
   display: flex;
   gap: 10px;
-  font-size: 10px;
+}
+
+.follower-value {
+  color: #298d1a;
+  font-weight: bold;
 }
