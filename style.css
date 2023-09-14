@@ -299,12 +299,12 @@ body {
 .sidebar {
   flex: 1 1 auto;
 }
-.main-side {
+/* .main-side {
   display: flex;
   gap: 30px;
   justify-content: space-between;
   align-items: flex-start;
-}
+} */
 
 .profile-language {
   padding-bottom: 20px;
@@ -550,4 +550,24 @@ body {
 .follower-value {
   color: #298d1a;
   font-weight: bold;
+}
+
+/* CSS Grid */
+
+/* .Page {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+} */
+
+.main-page {
+  width: 1100px;
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  column-gap: 30px;
+  margin: 0 auto;
+}
+
+.page-header {
+  grid-column: 1 / -1;
+  margin-bottom: 30px;
 }
