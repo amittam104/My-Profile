@@ -398,7 +398,7 @@ body {
 
 .analytics-section {
   background-color: #fff;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   padding: 15px 25px;
   border-radius: 10px;
 }
@@ -411,7 +411,7 @@ body {
 }
 
 .analytics-header {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   margin-top: 10px;
 }
 
@@ -582,4 +582,32 @@ body {
 .page-header {
   grid-column: 1 / -1;
   margin-bottom: 30px;
+}
+
+/* About Section */
+
+.about-section {
+  background-color: #fff;
+  padding: 20px 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.about-section h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 14px;
+  margin-bottom: 17px;
+  line-height: 1.5;
+}
+
+.about-section ol {
+  font-size: 14px;
+  margin-bottom: 17px;
+  line-height: 1.5;
+  list-style: none;
+  text-indent: 12px;
 }
