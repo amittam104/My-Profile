@@ -430,6 +430,9 @@ body {
   border: 1px solid #e2e2e2;
   border-radius: 8px;
   cursor: pointer;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
 }
 
 .profile-views:hover {
@@ -443,7 +446,7 @@ body {
 .profile-view {
   /* margin-top: 10px; */
   font-size: 18px;
-  margin-bottom: 7px;
+  margin-bottom: 4px;
 }
 
 .who-saw {
@@ -456,6 +459,9 @@ body {
   border: 1px solid #e2e2e2;
   border-radius: 8px;
   cursor: pointer;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
 }
 
 .post-immpressions:hover {
@@ -468,7 +474,7 @@ body {
 
 .post-impression {
   font-size: 18px;
-  margin-bottom: 7px;
+  margin-bottom: 4px;
 }
 
 .check-who {
@@ -493,6 +499,9 @@ body {
   border: 1px solid #e2e2e2;
   border-radius: 8px;
   cursor: pointer;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
 }
 
 .search-appearances:hover {
@@ -505,7 +514,7 @@ body {
 
 .search-appearance {
   font-size: 18px;
-  margin-bottom: 7px;
+  margin-bottom: 4px;
 }
 
 .check-many {
@@ -519,6 +528,9 @@ body {
   border: 1px solid #e2e2e2;
   border-radius: 8px;
   cursor: pointer;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
 }
 
 .followers:hover {
@@ -531,7 +543,7 @@ body {
 
 .follower {
   font-size: 18px;
-  margin-bottom: 7px;
+  margin-bottom: 4px;
 }
 
 .see-many {
