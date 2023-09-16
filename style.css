@@ -609,5 +609,13 @@ body {
   margin-bottom: 17px;
   line-height: 1.5;
   list-style: none;
-  text-indent: 12px;
+  text-indent: 8px;
+}
+
+.about-section li {
+  margin-bottom: 7px;
+}
+
+.about-experience-header {
+  font-style: italic;
 }
