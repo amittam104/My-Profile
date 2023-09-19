@@ -823,11 +823,13 @@ body {
   width: 30px;
   height: 30px;
   padding: 8px;
+  border-radius: 50px;
 }
 
 .featured-icon:hover {
   background-color: #d7d6d6;
   padding: 8px;
+  border-radius: 50px;
 }
 
 .pencil-icon {
@@ -839,6 +841,7 @@ body {
 .pencil-icon:hover {
   background-color: #d7d6d6;
   padding: 8px;
+  border-radius: 17px;
 }
 
 .icons {
