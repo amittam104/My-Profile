@@ -21,11 +21,16 @@ body {
 
 .Page-header-section {
   display: flex;
-  gap: 10px;
+  gap: 200px;
   align-items: center;
   padding: 10px 10px;
   margin-bottom: 30px;
   background-color: #fff;
+}
+
+.linkedin-navigation {
+  display: flex;
+  gap: 10px;
 }
 
 .linkedin-main-logo {
@@ -62,6 +67,23 @@ body {
   padding-left: 15px;
   padding-right: 200px;
   border-radius: 7px;
+}
+
+.navigation {
+  display: flex;
+  /* gap: 50px; */
+}
+
+.profile-navigation {
+  border-right: 1px solid #d7d6d6;
+}
+
+.profile-navigation svg {
+  margin-right: 25px;
+}
+
+.learning-navigation {
+  margin-left: 25px;
 }
 
 .banner {
