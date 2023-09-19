@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: #f3f3f0;
 }
 
@@ -38,6 +38,14 @@ body {
   height: auto;
   fill: #2967b2;
   margin-left: 20px;
+}
+
+.linkedin-main-logo:hover {
+  width: 35px;
+  height: auto;
+  fill: #2967b2;
+  margin-left: 20px;
+  cursor: pointer;
 }
 
 .search-word {
@@ -80,10 +88,25 @@ body {
 
 .profile-navigation svg {
   margin-right: 25px;
+  fill: #4b4b4b;
+}
+
+.profile-navigation svg:hover {
+  margin-right: 25px;
+  fill: #000;
 }
 
 .learning-navigation {
   margin-left: 25px;
+}
+
+.learning-navigation svg {
+  margin-right: 15px;
+  fill: #4b4b4b;
+}
+
+.learning-navigation svg:hover {
+  fill: #000;
 }
 
 .banner {
